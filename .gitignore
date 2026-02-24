@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Models and Data
+*.h5
+*.keras
+*.tflite
+dataset/
+logs/
+checkpoints/
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
