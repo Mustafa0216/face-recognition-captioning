@@ -8,7 +8,7 @@ A hybrid deep learning architecture that combines Convolutional Neural Networks 
 
 This project was built and optimized to be robust, achieving high accuracy and viability for real-time applications.
 
-## 🌟 Key Highlights
+##  Key Highlights
 
 *   **High Accuracy Recognition**: Achieves **>97% accuracy** on custom datasets (tested on 1,200+ distinct facial images).
 *   **Semantic Caption Generation**: Hybrid CNN-LSTM architecture predicts multi-label semantic descriptions with **92% semantic accuracy**.
@@ -19,14 +19,14 @@ This project was built and optimized to be robust, achieving high accuracy and v
     *   Dynamic Brightness/Contrast Adjustment
 *   **Optimized for Real-Time**: Features post-training quantization (TFLite), optimizing inference time by **18%**, making it suitable for edge devices and real-time webcam inference.
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 The model employs a dual-headed hybrid architecture:
 1.  **Backbone (CNN)**: Utilizes a highly efficient backbone (e.g., MobileNetV2) to extract spatial feature maps from input images.
 2.  **Recognition Head**: Dense layers with Softmax activation to classify the identity of the person.
 3.  **Description Head (LSTM)**: An Embedding layer followed by LSTM units to decode the spatial features into a sequence of words describing the facial features (e.g., "person with glasses and a beard").
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 Face-Recognition-Captioning/
@@ -43,7 +43,7 @@ Face-Recognition-Captioning/
 └── README.md
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Installation
 
@@ -87,7 +87,7 @@ Run the inference script to test the model using your webcam:
 python src/inference.py
 ```
 
-## 🧠 Model Metrics & Performance
+##  Model Metrics & Performance
 
 While we emphasize building a robust application over chasing metrics, the minimal requirements established for this architecture are:
 *   **Identity Recognition Accuracy**: >= 97%
